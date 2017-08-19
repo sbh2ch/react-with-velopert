@@ -1,21 +1,19 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import MyComponent from './MyComponent';
 import './App.css';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+    render() {
+        return (
+            // babel은 여러 브라우저에서 ES6코드를 사용할 수 있게 도와주는 도구임. 이미 create-react-app에 적용되어있음.
+            // webpack또한 적용되어있음.
+            // JSX code start : javascript의 확장 문법
+            <div>
+                <MyComponent name="bh" favoriteNumber={1}/>
+            </div>
+            // JSX code end
+        );
+    }
 }
 
 export default App;
