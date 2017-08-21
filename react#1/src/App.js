@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import MyComponent from './MyComponent';
 import Container from './Container';
+import MyComponents2 from "./MyComponents2";
 
 class App extends Component {
 
@@ -12,6 +13,8 @@ class App extends Component {
             <div>
                 <Container title="welcome"/>
                 <MyComponent name="bh" favoriteNumber={1}/>
+                <hr/>
+                <MyComponents2/>
             </div>
             // JSX code end
         );

@@ -4,19 +4,20 @@
 
 ## 브라우저의 작동방식
 ![작동방식](assets/how-to-work-browser.png)
+[브라우저는 어떻게 동작하는가? reference: naver D2](http://d2.naver.com/helloworld/59361)
 
 1. 브라우저가 html을 전달 받으면, 우선 렌더엔진이 이를 각 html 요소와 관련된 노드로 파싱하여 DOM트리를 만든다.
 2. 외부 CSS파일과 각 elements의 인라인 스타일을 파싱해서 스타일 정보를 사용한 렌더트리를 만든다.
-3. 렌더트리를 만드는 과정 뒤에서는 노드 스타일을 처리하는 `동기적 과정 (어테치먼트)`가 발생한다. 이 메소드는 스타일정보를 계산해서 객체형태로 반환한다. 렌더트리를 만드는 과정에선 어태치먼트를 통해서 각 요소의 스타일이 계산된다.
+3. 렌더트리를 만드는 과정 뒤에서는 노드 스타일을 처리하는 **동기적 과정 (어테치먼트)**가 발생한다. 이 메소드는 스타일정보를 계산해서 객체형태로 반환한다. 렌더트리를 만드는 과정에선 어태치먼트를 통해서 각 요소의 스타일이 계산된다.
 4. 그 이후 Reflow, Repaint가 발생한다.<br/>
 > 즉, DOM의 변화가 생기면 렌더트리를 재생성하고, 모든 요소의 스타일이 다시 계산되며, 레이아웃을 페인팅하는 과정의 반복이다. 
 
 <br/>
 
 ## Virtual DOM
-* 복잡한 SPA에서는 DOM조작이 많이 발생할 수 밖에 없다. 그 변화를 적용하기 위해선 브라우저가 많은 연산을 하게되고 성능의 문제가 발생하게 된다. 여기서 바로 `Virtual DOM`이 빛을 발하게 된다.
+* 복잡한 SPA에서는 DOM조작이 많이 발생할 수 밖에 없다. 그 변화를 적용하기 위해선 브라우저가 많은 연산을 하게되고 성능의 문제가 발생하게 된다. 여기서 바로 **Virtual DOM**이 빛을 발하게 된다.
 * 가상의 DOM을 만들고 View의 변화가 생긴다면 실제 DOM에 적용전에 가상 DOM에 먼저 적용을 시키고 최종적인 결과를 실제 DOM으로 전달한다. 그러므로 브라우저 업데이트 빈도가 현저하게 줄어들게 된다.
-* React에서는 실제 DOM과 가상 DOM을 비교하는 `Reconciliation(조화) 비교 알고리즘`을 제공한다. 원래 트리비교는 대략 O(n^3)의 비교를 해야하지만 위 알고리즘으로 최적화하여 O(n)의 비교를 가능하게 한다.
+* React에서는 실제 DOM과 가상 DOM을 비교하는 **Reconciliation(조화) 비교 알고리즘**을 제공한다. 원래 트리비교는 대략 O(n^3)의 비교를 해야하지만 위 알고리즘으로 최적화하여 O(n)의 비교를 가능하게 한다.
   * 전제 #1 : 같은 형태의 엘리먼트들은 비슷한 DOM 트리를 가지고 있다.
   * 전제 #2 : 다른 형태의 엘리먼트는 서로 다른 DOM 트리를 가지고 있다. 다르게 생겼으면 내부를 비교하지 않음. 
   * 배열을 렌더링할 때 : 엘리먼트에 key 값을 설정하여 고유값을 주고, 이를 통해 렌더링시 새로 렌더링하지않고 유지함으로써 성능 최적화. 
@@ -41,8 +42,8 @@
 * 문법
   * 하나의 엘리먼트안에 감싸져있어야 한다.
   * 자바스크립트 표현을 할 땐 {} 안에 해야함.
-  * if문 대신 조건부 연산자를 사용 `ex. 3항 연산자, &&` 
-  * 태그 내 property는 camelcase로 작성한다. `ex. background-color => backgroundColor`
+  * if문 대신 조건부 연산자를 사용 **ex. 3항 연산자, &&** 
+  * 태그 내 property는 camelcase로 작성한다. **ex. background-color => backgroundColor**
   * 태그는 꼭 닫혀야한다.
   * 만약 복잡해진다면 아래와 같이 한다.
 ```jsx harmony
@@ -235,3 +236,55 @@ class ArrowTest extends Component {
   * Animation
   * Transition
   * [Facebook Official Documents](https://facebook.github.io/react/docs/events.html)
+
+#### ref
+* DOM에 직접 접근할때 사용한다.
+```jsx harmony
+<div ref={ref=>this.refTest=ref}>ref!</div>
+
+
+this.refTest //접근할 땐 이와 같이 접근한다. ex. this.refTest.focus();
+```
+
+#### LifeCycle Method
+![lifeCycle#1](assets/lifecycle1.JPG)
+* 마운트 : 컴포넌트가 페이지에 나타남. (되기 전 후로 메소드 2개)
+  1. constructor(props) : 가장 처음 실행되는 생성자 메소드, 주로 state를 정의함.
+      ```js
+      constructor(props) {
+          super(props);
+      }
+      ```
+  2. **componentWillMount()**  
+        * Dom이 나타나기 전에 실행되는 메소드
+        * 한번만 실행되며. `this.props`, `this.state` 사용 불가능.
+        * `setState()` 사용가능, DOM에 접근 불가능.
+        * 서버사이드에서 실행 가능.
+  3. render() : 렌더링 메소드로써 컴포넌트의 모양새를 정의해 준다.
+  4. **componentDidMount()** 
+        * 첫 렌더링 후 실행되는 메소드
+        * 다른 자바스크립트 라이브러리나 프레임워크 함수 호출 가능
+        * *이벤트 등록 / setTimeout / 네트워크 요청 / 비동기 작업은 여기서 실행함*
+        * DOM에 접근 가능
+* 업데이트 : 컴포넌트의 정보가 업데이트. (되기 전 후로 메소드 4개)
+  1. **componentWillRecieveProps(nextProps)**
+        * 부모에게서 새로 props를 받게 될 때 실행.
+        * props 값에 따라 state에 변화를 줘야 할 때 여기서 작업.
+        * `setState()`실행 가능하고, 새 props는 nextProps 파라미터를 통해 접근이 가능하다. 
+  2. **shouldComponentUpdate(nextProps, nextState)**
+        * props나 state가 변경되면 이 메소드를 실행함.
+        * `true` / `false` 를 반환함 (default 로 `true` 를 반환함.)
+        * 컴포넌트를 최적화할때 중요한 역할을 함.(Virtual DOM에 불필요한 re-rendering작업을 중단시킴)
+  3. **componentWillUpdate(nextProps, nextState)** 
+        * `shouldComponentUpdate()`가 `true`를 반환했을 때 실행.
+        * 업데이트를 실행하기 전 실행
+        * DOM 조작 및 `setState()`를 하면 정상적으로 작동되지 않음.
+  4. render()
+  5. **componentDidUpdate(prevProps, prevState)**
+        * re-rendering을 마친 후 실행.
+        * DOM 관련 처리 가능
+        * `prevProps`, `prevState`를 통해 이전 데이터에 접근이 가능.
+* 언마운트 : 페이지에서 컴포넌트 사라짐 (되기 전 메소드 1개) 
+  1. **componentWillUnmount()** 
+        * 컴포넌트가 DOM에서 제거될 때 실행.
+        * 여기서 타이머 / 이벤트 등을 제거함.
