@@ -40,7 +40,6 @@ export default class MyComponent extends Component {
 
     //Dom을 건드려면 ref를 사용한다.
 
-
     render() {
         const {handleChange, handleClick, handleKeyPress} = this;
         const {lastName, firstName, names} = this.state;

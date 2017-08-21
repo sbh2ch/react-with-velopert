@@ -1,13 +1,13 @@
-# React #1 
+# #1 React 시작하기
 
-> 페이스북에서 만든 라이브러리
+> React는 페이스북에서 만든 프론트엔드 라이브러리
 
 ## 브라우저의 작동방식
 ![작동방식](assets/how-to-work-browser.png)
 
-1. 브라우저가 html을 전달 받으면, 우선 랜더엔진이 이를 각 html 요소와 관련된 노드로 파싱하여 DOM트리를 만든다.
+1. 브라우저가 html을 전달 받으면, 우선 렌더엔진이 이를 각 html 요소와 관련된 노드로 파싱하여 DOM트리를 만든다.
 2. 외부 CSS파일과 각 elements의 인라인 스타일을 파싱해서 스타일 정보를 사용한 렌더트리를 만든다.
-3. 랜더트리를 만드는 과정 뒤에서는 노드 스타일을 처리하는 `동기적 과정 (어테치먼트)`가 발생한다. 이 메소드는 스타일정보를 계산해서 객체형태로 반환한다. 랜더트리를 만드는 과정에선 어태치먼트를 통해서 각 요소의 스타일이 계산된다.
+3. 렌더트리를 만드는 과정 뒤에서는 노드 스타일을 처리하는 `동기적 과정 (어테치먼트)`가 발생한다. 이 메소드는 스타일정보를 계산해서 객체형태로 반환한다. 렌더트리를 만드는 과정에선 어태치먼트를 통해서 각 요소의 스타일이 계산된다.
 4. 그 이후 Reflow, Repaint가 발생한다.<br/>
 > 즉, DOM의 변화가 생기면 렌더트리를 재생성하고, 모든 요소의 스타일이 다시 계산되며, 레이아웃을 페인팅하는 과정의 반복이다. 
 
@@ -213,5 +213,25 @@ class ArrowTest extends Component {
 }
 ```
 
-#### 
-
+#### Event
+* 이벤트 이름은 camel-case
+* !!함수형태의 객체를 전달 (실행하는 구조가 되면 안된다.)
+  *  ~~onClick={handleEvent()}~~
+  * onClick={handleEvent}
+* DOM 요소에만 event를 지정할 수 있다.
+* 이벤트 종류
+  * Clipboard
+  * Composition
+  * Keyboard
+  * Focus
+  * Form
+  * Mouse
+  * Selection
+  * Touch
+  * UI
+  * Wheel
+  * Media
+  * Image
+  * Animation
+  * Transition
+  * [Facebook Official Documents](https://facebook.github.io/react/docs/events.html)
