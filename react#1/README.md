@@ -4,7 +4,8 @@
 
 ## 브라우저의 작동방식
 ![작동방식](assets/how-to-work-browser.png)
-[브라우저는 어떻게 동작하는가? reference: naver D2](http://d2.naver.com/helloworld/59361)
+<br/>
+[브라우저는 어떻게 동작하는가? 출처: NAVER D2](http://d2.naver.com/helloworld/59361)
 
 1. 브라우저가 html을 전달 받으면, 우선 렌더엔진이 이를 각 html 요소와 관련된 노드로 파싱하여 DOM트리를 만든다.
 2. 외부 CSS파일과 각 elements의 인라인 스타일을 파싱해서 스타일 정보를 사용한 렌더트리를 만든다.
