@@ -10,8 +10,8 @@ const TodoItemList = ({items, onToggle, onRemove}) => {
                 id={item.id}
                 name={item.name}
                 finished={item.finished}
-                onToggle={item.onToggle}
-                onRemove={item.onRemove}
+                onToggle={onToggle}
+                onRemove={onRemove}
             />
         )
     );

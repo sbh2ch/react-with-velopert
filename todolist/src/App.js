@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import shortId from 'shortid';
 import TodoInsert from './components/TodoInsert';
 import TodoItemList from './components/TodoItemList';
+import TodoReset from './components/TodoReset';
+import './App.css';
 
 function createItem(name) {
     return {
@@ -22,6 +24,20 @@ class App extends Component {
     state = {
         todoItems: defaultTodos
     };
+
+    constructor(props) {
+        super(props);
+        const todos = localStorage.getItem('todos');
+        if (todos) {
+            this.state = {
+                todoItems: JSON.parse(todos)
+            };
+        }
+    };
+
+    componentDidUpdate(prevProps, prevState) {
+        localStorage.setItem('todos', JSON.stringify(this.state.todoItems));
+    }
 
     handleInsert = (name) => {
         this.setState({
@@ -73,6 +89,7 @@ class App extends Component {
         return (
             <div className="App">
                 <h1>TODO LIST</h1>
+                <TodoReset onReset={handleReset}/>
                 <TodoInsert onInsert={handleInsert}/>
                 <TodoItemList items={this.state.todoItems} onRemove={handleRemove} onToggle={handleToggle}/>
             </div>

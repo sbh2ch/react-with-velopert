@@ -18,11 +18,31 @@ export default class TodoItem extends Component {
         onRemove: () => console.warn('onRemove not defined!')
     };
 
+    shouldComponentUpdate(nextProps, nextState) {
+        return nextProps.finished !== this.props.finished;
+    };
+
     render() {
-        const {name} = this.props;
+        const {
+            name,
+            id,
+            finished,
+            onToggle,
+            onRemove
+        } = this.props;
+        console.log('rendering', name);
+
+        const style = {
+            cursor: 'pointer',
+            textDecoration: finished ? 'line-through' : 'none'
+        };
 
         return (
-            <li>
+            <li
+                style={style}
+                onClick={() => onToggle(id)}
+                onDoubleClick={() => onRemove(id)}
+            >
                 {name}
             </li>
         )
