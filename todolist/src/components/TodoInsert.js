@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import './TodoInsert.css';
 
 export default class TodoInsert extends Component {
     static propTypes = {
@@ -39,7 +40,7 @@ export default class TodoInsert extends Component {
         const {handleChange, handleClick, handleKeypress} = this;
 
         return (
-            <div>
+            <div className="TodoInsert">
                 <input
                     value={input}
                     onChange={handleChange}

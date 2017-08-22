@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import './TodoItem.css';
 
 export default class TodoItem extends Component {
     static propTypes = {
@@ -42,6 +43,7 @@ export default class TodoItem extends Component {
                 style={style}
                 onClick={() => onToggle(id)}
                 onDoubleClick={() => onRemove(id)}
+                className="TodoItem"
             >
                 {name}
             </li>

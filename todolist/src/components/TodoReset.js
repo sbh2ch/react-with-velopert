@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import './TodoReset.css';
 
 
 export default class TodoReset extends Component {
@@ -15,7 +16,7 @@ export default class TodoReset extends Component {
         const {onReset} = this.props;
 
         return (
-            <button onClick={onReset}>reset</button>
+            <button className="TodoReset" onClick={onReset}>reset</button>
         )
     }
 }

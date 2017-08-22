@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c46fd71-12d8-4db1-8206-0c349d2c3c6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todolist/src/App.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist/README.md" afterPath="$PROJECT_DIR$/todolist/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist/src/App.js" afterPath="$PROJECT_DIR$/todolist/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist/src/components/TodoInsert.css" afterPath="$PROJECT_DIR$/todolist/src/components/TodoInsert.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist/src/components/TodoInsert.js" afterPath="$PROJECT_DIR$/todolist/src/components/TodoInsert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist/src/components/TodoItem.css" afterPath="$PROJECT_DIR$/todolist/src/components/TodoItem.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist/src/components/TodoItem.js" afterPath="$PROJECT_DIR$/todolist/src/components/TodoItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist/src/components/TodoItemList.css" afterPath="$PROJECT_DIR$/todolist/src/components/TodoItemList.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist/src/components/TodoItemList.js" afterPath="$PROJECT_DIR$/todolist/src/components/TodoItemList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist/src/components/TodoReset.css" afterPath="$PROJECT_DIR$/todolist/src/components/TodoReset.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist/src/components/TodoReset.js" afterPath="$PROJECT_DIR$/todolist/src/components/TodoReset.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,43 +38,21 @@
           <file leaf-file-name="TodoItem.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoItem.js">
               <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="924">
+                  <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TodoReset.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoReset.css">
+              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="441">
-                  <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/react#1/src/App.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/todolist/src/App.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TodoReset.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoReset.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -98,8 +77,8 @@
           <file leaf-file-name="TodoItemList.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoItemList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+                <state relative-caret-position="420">
+                  <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -107,11 +86,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TodoInsert.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="TodoInsert.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoInsert.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="735">
+                  <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TodoItemList.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoItemList.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TodoInsert.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoInsert.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63">
-                  <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+                <state relative-caret-position="924">
+                  <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -164,11 +163,16 @@
         <option value="$PROJECT_DIR$/todolist/components/TodoInsert.js" />
         <option value="$PROJECT_DIR$/todolist/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/todolist/src/components/TodoItemList.js" />
-        <option value="$PROJECT_DIR$/todolist/src/components/TodoReset.js" />
-        <option value="$PROJECT_DIR$/todolist/src/components/TodoItem.js" />
         <option value="$PROJECT_DIR$/todolist/src/App.js" />
         <option value="$PROJECT_DIR$/todolist/src/App.css" />
+        <option value="$PROJECT_DIR$/todolist/src/components/TodoInsert.js" />
+        <option value="$PROJECT_DIR$/todolist/src/components/TodoInsert.css" />
+        <option value="$PROJECT_DIR$/todolist/src/components/TodoItem.js" />
+        <option value="$PROJECT_DIR$/todolist/src/components/TodoItem.css" />
+        <option value="$PROJECT_DIR$/todolist/src/components/TodoItemList.js" />
+        <option value="$PROJECT_DIR$/todolist/src/components/TodoItemList.css" />
+        <option value="$PROJECT_DIR$/todolist/src/components/TodoReset.js" />
+        <option value="$PROJECT_DIR$/todolist/src/components/TodoReset.css" />
       </list>
     </option>
   </component>
@@ -191,8 +195,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="564" />
-    <option name="y" value="236" />
+    <option name="x" value="558" />
+    <option name="y" value="500" />
     <option name="width" value="3143" />
     <option name="height" value="1830" />
   </component>
@@ -377,15 +381,15 @@
       <option name="presentableId" value="Default" />
       <updated>1503280881899</updated>
       <workItem from="1503280883252" duration="11672000" />
-      <workItem from="1503295288022" duration="16659000" />
+      <workItem from="1503295288022" duration="17870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28331000" />
+    <option name="totallyTimeSpent" value="29542000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="564" y="236" width="3143" height="1830" extended-state="0" />
+    <frame x="558" y="500" width="3143" height="1830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -591,36 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoItemList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoInsert.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoReset.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todolist/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -642,10 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoItem.js">
+    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoInsert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        <state relative-caret-position="924">
+          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -662,8 +636,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todolist/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoItemList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoItemList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoReset.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoItem.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoInsert.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist/src/components/TodoReset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
