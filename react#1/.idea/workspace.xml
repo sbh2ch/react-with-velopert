@@ -9,22 +9,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< HEAD:lec01/.idea/workspace.xml
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="63">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyComponent.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyComponent.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyComponent.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:lec01/.idea/workspace.xml
             <state relative-caret-position="345">
               <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
@@ -32,7 +36,60 @@
                 <marker date="1503705997000" expanded="true" signature="1074:1815" ph="..." />
                 <marker date="1503705997000" expanded="true" signature="1098:1330" ph="..." />
                 <marker date="1503705997000" expanded="true" signature="1354:1583" ph="..." />
+=======
+            <state relative-caret-position="-50">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="e#52#91#0" expanded="true" />
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-2886">
+                <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+                <folding>
+                  <marker date="1503294468688" expanded="true" signature="1756:1864" ph="&lt;div/&gt;" />
+                  <marker date="1503294468688" expanded="true" signature="1777:1854" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="2097:2390" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="2112:2388" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="2272:2372" ph="&lt;div/&gt;" />
+                  <marker date="1503294468688" expanded="true" signature="2460:2802" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="2488:2580" ph="{&quot;prop1&quot;: 'default1'...}" />
+                  <marker date="1503294468688" expanded="true" signature="2599:2800" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="2684:2784" ph="&lt;div/&gt;" />
+                  <marker date="1503294468688" expanded="true" signature="3114:3571" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="3142:3207" ph="{&quot;prop1&quot;: 'default1'...}" />
+                  <marker date="1503294468688" expanded="true" signature="3236:3349" ph="{&quot;prop1&quot;: PropTypes.string...}" />
+                  <marker date="1503294468688" expanded="true" signature="3368:3569" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="3453:3553" ph="&lt;div/&gt;" />
+                  <marker date="1503294468688" expanded="true" signature="3696:3920" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="3710:3738" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="3757:3918" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="3837:3902" ph="&lt;div/&gt;" />
+                  <marker date="1503294468688" expanded="true" signature="4138:4717" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="4152:4239" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="4174:4233" ph="{&quot;name&quot;: 'son'...}" />
+                  <marker date="1503294468688" expanded="true" signature="4269:4377" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="4293:4370" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="4319:4360" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="4387:4517" ph="//..." />
+                  <marker date="1503294468688" expanded="true" signature="4546:4715" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="4570:4708" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="4596:4698" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="4841:5299" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="4866:4912" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="4944:4989" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="5008:5297" ph="{...}" />
+                  <marker date="1503294468688" expanded="true" signature="5104:5281" ph="&lt;div/&gt;" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -40,7 +97,11 @@
       <file leaf-file-name="Container.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Container.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:lec01/.idea/workspace.xml
             <state relative-caret-position="150">
+=======
+            <state relative-caret-position="210">
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
               <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
@@ -72,6 +133,13 @@
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -79,10 +147,12 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="x" value="1148" />
+    <option name="y" value="699" />
+    <option name="width" value="2262" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -99,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD:lec01/.idea/workspace.xml
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -129,13 +200,18 @@
           </PATH>
         </subPane>
       </pane>
+=======
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/sonbyeonghwa/local/dev/projects/react-velopert/lec01/src/Container.js&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="project.structure.last.edited" value="Project" />
@@ -156,20 +232,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -184,7 +252,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -205,10 +272,12 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -216,7 +285,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -244,6 +312,8 @@
       <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
   </component>
@@ -262,13 +332,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503122689055</updated>
+<<<<<<< HEAD:lec01/.idea/workspace.xml
       <workItem from="1503122690731" duration="7590000" />
       <workItem from="1503705256633" duration="764000" />
       <workItem from="1503722369912" duration="117000" />
+=======
+      <workItem from="1503122690731" duration="7514000" />
+      <workItem from="1503294746667" duration="543000" />
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD:lec01/.idea/workspace.xml
     <option name="totallyTimeSpent" value="8471000" />
   </component>
   <component name="ToolWindowManager">
@@ -279,10 +355,20 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="8057000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1148" y="699" width="2262" height="1416" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD:lec01/.idea/workspace.xml
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -300,10 +386,32 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15919487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -315,6 +423,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:lec01/.idea/workspace.xml
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -359,10 +468,17 @@
             <marker date="1503705997000" expanded="true" signature="1074:1815" ph="..." />
             <marker date="1503705997000" expanded="true" signature="1098:1330" ph="..." />
             <marker date="1503705997000" expanded="true" signature="1354:1583" ph="..." />
+=======
+        <state relative-caret-position="63">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD:lec01/.idea/workspace.xml
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -374,6 +490,11 @@
     <entry file="file://$PROJECT_DIR$/src/Container.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
+=======
+    <entry file="file://$PROJECT_DIR$/src/Container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
           <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
@@ -381,6 +502,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyComponent.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:lec01/.idea/workspace.xml
         <state relative-caret-position="165">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
@@ -388,6 +510,12 @@
             <marker date="1503705997000" expanded="true" signature="1074:1815" ph="..." />
             <marker date="1503705997000" expanded="true" signature="1098:1330" ph="..." />
             <marker date="1503705997000" expanded="true" signature="1354:1583" ph="..." />
+=======
+        <state relative-caret-position="231">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#52#91#0" expanded="true" />
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
           </folding>
         </state>
       </provider>
@@ -413,6 +541,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD:lec01/.idea/workspace.xml
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -423,6 +552,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -446,7 +577,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="63">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
@@ -454,7 +585,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Container.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:lec01/.idea/workspace.xml
         <state relative-caret-position="150">
+=======
+        <state relative-caret-position="210">
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
@@ -462,6 +597,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyComponent.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:lec01/.idea/workspace.xml
         <state relative-caret-position="345">
           <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
@@ -469,7 +605,58 @@
             <marker date="1503705997000" expanded="true" signature="1074:1815" ph="..." />
             <marker date="1503705997000" expanded="true" signature="1098:1330" ph="..." />
             <marker date="1503705997000" expanded="true" signature="1354:1583" ph="..." />
+=======
+        <state relative-caret-position="-50">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#52#91#0" expanded="true" />
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/.idea/workspace.xml
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2886">
+            <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <folding>
+              <marker date="1503294468688" expanded="true" signature="1756:1864" ph="&lt;div/&gt;" />
+              <marker date="1503294468688" expanded="true" signature="1777:1854" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="2097:2390" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="2112:2388" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="2272:2372" ph="&lt;div/&gt;" />
+              <marker date="1503294468688" expanded="true" signature="2460:2802" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="2488:2580" ph="{&quot;prop1&quot;: 'default1'...}" />
+              <marker date="1503294468688" expanded="true" signature="2599:2800" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="2684:2784" ph="&lt;div/&gt;" />
+              <marker date="1503294468688" expanded="true" signature="3114:3571" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="3142:3207" ph="{&quot;prop1&quot;: 'default1'...}" />
+              <marker date="1503294468688" expanded="true" signature="3236:3349" ph="{&quot;prop1&quot;: PropTypes.string...}" />
+              <marker date="1503294468688" expanded="true" signature="3368:3569" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="3453:3553" ph="&lt;div/&gt;" />
+              <marker date="1503294468688" expanded="true" signature="3696:3920" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="3710:3738" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="3757:3918" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="3837:3902" ph="&lt;div/&gt;" />
+              <marker date="1503294468688" expanded="true" signature="4138:4717" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="4152:4239" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="4174:4233" ph="{&quot;name&quot;: 'son'...}" />
+              <marker date="1503294468688" expanded="true" signature="4269:4377" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="4293:4370" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="4319:4360" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="4387:4517" ph="//..." />
+              <marker date="1503294468688" expanded="true" signature="4546:4715" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="4570:4708" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="4596:4698" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="4841:5299" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="4866:4912" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="4944:4989" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="5008:5297" ph="{...}" />
+              <marker date="1503294468688" expanded="true" signature="5104:5281" ph="&lt;div/&gt;" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

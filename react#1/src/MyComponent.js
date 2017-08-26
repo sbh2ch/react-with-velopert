@@ -5,15 +5,17 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
 export default class MyComponent extends Component {
-
     state = {
         lastName: '',
         firstName: '',
         names: []
     };
 
+<<<<<<< HEAD:lec01/src/MyComponent.js
 
 
+=======
+>>>>>>> 17fabff1509a7d99f70250c4194c7d68ba0a0a3c:react#1/src/MyComponent.js
     handleChange = (e) => {
         const {value, name} = e.target;
         this.setState({
@@ -39,7 +41,6 @@ export default class MyComponent extends Component {
     };
 
     //Dom을 건드려면 ref를 사용한다.
-
 
     render() {
         const {handleChange, handleClick, handleKeyPress} = this;
