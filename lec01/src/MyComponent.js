@@ -12,7 +12,7 @@ export default class MyComponent extends Component {
         names: []
     };
 
-    
+
 
     handleChange = (e) => {
         const {value, name} = e.target;
