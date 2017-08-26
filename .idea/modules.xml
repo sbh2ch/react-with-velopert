@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/react-with-velopert.iml" filepath="$PROJECT_DIR$/.idea/react-with-velopert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/react-velopert.iml" filepath="$PROJECT_DIR$/react-velopert.iml" />
     </modules>
   </component>
 </project>
