@@ -1,0 +1,27 @@
+@import "./styles/lib/all";
+
+.card {
+  width: $multiplier * 10;
+  height: $multiplier * 10;
+  margin: $multiplier;
+}
+
+.one {
+  @include box_shadow(1);
+  background: $oc-blue-2;
+}
+
+.two {
+  @include box_shadow(2);
+  background: $oc-blue-4;
+}
+
+.three {
+  @include box_shadow(3);
+  background: $oc-blue-6;
+}
+
+.four {
+  @include box_shadow(4);
+  background: $oc-blue-8;
+}
