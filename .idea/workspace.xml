@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5448ca0d-9e26-45da-bf6e-010d56b299e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/Container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/Header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/lib/style-utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react#2/package.json" afterPath="$PROJECT_DIR$/react#2/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react#2/yarn.lock" afterPath="$PROJECT_DIR$/react#2/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react#1/.gitignore" afterPath="$PROJECT_DIR$/react#1/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react#2/.gitignore" afterPath="$PROJECT_DIR$/react#2/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist/.gitignore" afterPath="$PROJECT_DIR$/todolist/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -33,10 +31,60 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todolist/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react#2/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react#1/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contact/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Container.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact/src/components/Container.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="285">
               <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#52#78#0" expanded="true" />
@@ -81,6 +129,11 @@
         <option value="$PROJECT_DIR$/contact/src/lib/style-utils.js" />
         <option value="$PROJECT_DIR$/contact/src/components/Container.js" />
         <option value="$PROJECT_DIR$/contact/src/App.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/todolist/.gitignore" />
+        <option value="$PROJECT_DIR$/react#2/.gitignore" />
+        <option value="$PROJECT_DIR$/react#1/.gitignore" />
+        <option value="$PROJECT_DIR$/contact/.gitignore" />
       </list>
     </option>
   </component>
@@ -115,6 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -142,35 +197,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-velopert" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-velopert" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.11.2/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plug&#9;ACTION&#9;WelcomeScreen.Plugins&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plug&#9;ACTION&#9;WelcomeScreen.Plugins&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -426,6 +461,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -595,6 +631,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -662,12 +704,13 @@
       <workItem from="1503723286505" duration="63000" />
       <workItem from="1503723379586" duration="313000" />
       <workItem from="1503729440736" duration="5826000" />
-      <workItem from="1503735686671" duration="1820000" />
+      <workItem from="1503735686671" duration="2067000" />
+      <workItem from="1504066272853" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8523000" />
+    <option name="totallyTimeSpent" value="8841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -683,7 +726,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -712,13 +755,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/contact/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/src/components/Container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#52#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react#2/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,42 +818,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="13" />
-            <folding>
-              <marker date="1503722565000" expanded="true" signature="1842:1950" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="1863:1940" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="2183:2476" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="2198:2474" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="2358:2458" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="2546:2888" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="2574:2666" ph="{&quot;prop1&quot;: 'default1'...}" />
-              <marker date="1503722565000" expanded="true" signature="2685:2886" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="2770:2870" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="3200:3657" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="3228:3293" ph="{&quot;prop1&quot;: 'default1'...}" />
-              <marker date="1503722565000" expanded="true" signature="3322:3435" ph="{&quot;prop1&quot;: PropTypes.string...}" />
-              <marker date="1503722565000" expanded="true" signature="3454:3655" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="3539:3639" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="3782:4006" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="3796:3824" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="3843:4004" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="3923:3988" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="4224:4803" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4238:4325" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4260:4319" ph="{&quot;name&quot;: 'son'...}" />
-              <marker date="1503722565000" expanded="true" signature="4355:4463" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4379:4456" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4405:4446" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4473:4603" ph="//..." />
-              <marker date="1503722565000" expanded="true" signature="4632:4801" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4656:4794" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4682:4784" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4927:5385" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4952:4998" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="5030:5075" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="5094:5383" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="5190:5367" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="6157:6190" ph="{...}" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -832,13 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todolist/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todolist/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -851,51 +866,8 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="13" />
-            <folding>
-              <marker date="1503722565000" expanded="true" signature="1842:1950" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="1863:1940" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="2183:2476" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="2198:2474" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="2358:2458" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="2546:2888" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="2574:2666" ph="{&quot;prop1&quot;: 'default1'...}" />
-              <marker date="1503722565000" expanded="true" signature="2685:2886" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="2770:2870" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="3200:3657" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="3228:3293" ph="{&quot;prop1&quot;: 'default1'...}" />
-              <marker date="1503722565000" expanded="true" signature="3322:3435" ph="{&quot;prop1&quot;: PropTypes.string...}" />
-              <marker date="1503722565000" expanded="true" signature="3454:3655" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="3539:3639" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="3782:4006" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="3796:3824" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="3843:4004" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="3923:3988" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="4224:4803" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4238:4325" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4260:4319" ph="{&quot;name&quot;: 'son'...}" />
-              <marker date="1503722565000" expanded="true" signature="4355:4463" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4379:4456" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4405:4446" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4473:4603" ph="//..." />
-              <marker date="1503722565000" expanded="true" signature="4632:4801" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4656:4794" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4682:4784" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4927:5385" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="4952:4998" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="5030:5075" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="5094:5383" ph="{...}" />
-              <marker date="1503722565000" expanded="true" signature="5190:5367" ph="&lt;div/&gt;" />
-              <marker date="1503722565000" expanded="true" signature="6157:6190" ph="{...}" />
-            </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react#2/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -903,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="749">
           <caret line="247" column="22" lean-forward="false" selection-start-line="247" selection-start-column="22" selection-end-line="247" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="732">
           <caret line="235" column="22" lean-forward="true" selection-start-line="196" selection-start-column="20" selection-end-line="235" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,9 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -974,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,9 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="e#52#91#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1000,13 +962,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact/src/components/Container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="285">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#52#78#0" expanded="true" />
@@ -1017,10 +978,50 @@
     <entry file="file://$PROJECT_DIR$/contact/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react#2/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react#1/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
