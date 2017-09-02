@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5448ca0d-9e26-45da-bf6e-010d56b299e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/ContactModal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/Dimmed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/FloatingButton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/Input.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/Modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/Thumbnail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/ViewSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/ContactItem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/ContactList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/.gitignore" afterPath="$PROJECT_DIR$/contact/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/src/App.js" afterPath="$PROJECT_DIR$/contact/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/src/components/Container.js" afterPath="$PROJECT_DIR$/contact/src/components/Container.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/src/components/Header.js" afterPath="$PROJECT_DIR$/contact/src/components/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/src/lib/style-utils.js" afterPath="$PROJECT_DIR$/contact/src/lib/style-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/src/components/ContactModal.js" afterPath="$PROJECT_DIR$/contact/src/components/ContactModal.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,10 +22,23 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="69" column="28" lean-forward="false" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+            <state relative-caret-position="135">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactItem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact/src/components/ContactItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="126" column="6" lean-forward="true" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#51#90#0" expanded="true" />
+                <marker date="1504339929000" expanded="true" signature="2823:3340" ph="..." />
+                <marker date="1504339929000" expanded="true" signature="2866:3330" ph="..." />
+                <marker date="1504339929000" expanded="true" signature="2889:2996" ph="..." />
               </folding>
             </state>
           </provider>
@@ -42,8 +47,30 @@
       <file leaf-file-name="ContactModal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact/src/components/ContactModal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="103" column="53" lean-forward="true" selection-start-line="103" selection-start-column="53" selection-end-line="103" selection-end-column="53" />
+            <state relative-caret-position="414">
+              <caret line="137" column="37" lean-forward="false" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="37" />
+              <folding>
+                <element signature="e#51#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Container.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact/src/components/Container.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact/src/components/ContactList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="e#51#90#0" expanded="true" />
               </folding>
@@ -97,7 +124,9 @@
         <option value="$PROJECT_DIR$/contact/src/lib/style-utils.js" />
         <option value="$PROJECT_DIR$/contact/src/components/Thumbnail.js" />
         <option value="$PROJECT_DIR$/contact/src/components/Input.js" />
+        <option value="$PROJECT_DIR$/contact/src/components/ContactItem.js" />
         <option value="$PROJECT_DIR$/contact/src/components/ContactModal.js" />
+        <option value="$PROJECT_DIR$/contact/src/components/ContactList.js" />
         <option value="$PROJECT_DIR$/contact/src/App.js" />
       </list>
     </option>
@@ -733,12 +762,12 @@
       <workItem from="1503729440736" duration="5826000" />
       <workItem from="1503735686671" duration="2067000" />
       <workItem from="1504066272853" duration="389000" />
-      <workItem from="1504328546810" duration="8895000" />
+      <workItem from="1504328546810" duration="12792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18054000" />
+    <option name="totallyTimeSpent" value="21951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -1044,16 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact/src/components/Container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <element signature="e#52#78#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1107,7 +1126,7 @@
         <state relative-caret-position="465">
           <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
           <folding>
-            <element signature="e#51#90#0" expanded="true" />
+            <element signature="e#51#90#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1117,7 +1136,7 @@
         <state relative-caret-position="450">
           <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding>
-            <element signature="e#51#77#0" expanded="true" />
+            <element signature="e#51#77#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1132,10 +1151,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contact/src/components/Container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contact/src/components/ContactModal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="103" column="53" lean-forward="true" selection-start-line="103" selection-start-column="53" selection-end-line="103" selection-end-column="53" />
+        <state relative-caret-position="414">
+          <caret line="137" column="37" lean-forward="false" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="37" />
+          <folding>
+            <element signature="e#51#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/src/components/ContactItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="126" column="6" lean-forward="true" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
+          <folding>
+            <element signature="e#51#90#0" expanded="true" />
+            <marker date="1504339929000" expanded="true" signature="2823:3340" ph="..." />
+            <marker date="1504339929000" expanded="true" signature="2866:3330" ph="..." />
+            <marker date="1504339929000" expanded="true" signature="2889:2996" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/src/components/ContactList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="e#51#90#0" expanded="true" />
           </folding>
@@ -1144,11 +1194,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="69" column="28" lean-forward="false" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
