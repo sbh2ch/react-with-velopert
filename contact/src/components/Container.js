@@ -10,7 +10,6 @@ const Wrapper = styled.div`
     width: 700px;
     margin: 0 auto;
     padding: 1rem;
-    background: black;
     
     ${media.mobile`width: 100%`}
 `;
@@ -18,7 +17,7 @@ const Wrapper = styled.div`
 const Container = ({visible, children}) => visible ?
     (
         <Wrapper>
-
+            {children}
         </Wrapper>
     ) : null;
 

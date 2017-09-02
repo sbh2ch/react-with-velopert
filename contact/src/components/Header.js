@@ -7,8 +7,8 @@ import oc from 'open-color/open-color';
 
 const Wrapper = styled.div`
     height: 5rem;
-    background: ${oc.cyan[6]};
-    border-bottom: 1px solid ${oc.cyan[8]};
+    background: ${oc.gray[9]};
+    border-bottom: 1px solid ${oc.gray[8]};
     
     color: white;
     font-weight: 500;
@@ -22,7 +22,7 @@ const Wrapper = styled.div`
 const Header = () => {
     return (
         <Wrapper>
-            주소록
+            Contact
         </Wrapper>
     )
 };
