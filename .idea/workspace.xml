@@ -2,11 +2,142 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5448ca0d-9e26-45da-bf6e-010d56b299e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/ContactItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact/src/components/ContactList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-counter/src/actions/ActionTypes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-counter/src/actions/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-counter/src/components/Counter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-counter/src/components/Counter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-counter/src/containers/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-counter/src/containers/CounterContainer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-counter/src/reducers/color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-counter/src/reducers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-counter/src/reducers/number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-counter/src/utils/index.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/02e09d8655a9eaed2246994a2ddd3ce1ee1f9330.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/1449cfc540ba9e52a1cdf0107a6dac16094137f2.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/1e0f6482297010c1bad3538b253fbda7065f130c.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/1ececc64075531ace9ef61d4359f33253ec2a853.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/25abe38444a96019039303d7324cb14405181246.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/269365df4757627f4cb888a746ed5dbdd401722b.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/2a57f00b8b6de94fc4ad6b02f8df57782397b89b.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/2b46171e5abcbf5b1859856607e06a1833d89f0d.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/2de021d15e3efb6e7bff808ed71f6b7ead65a17b.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/355137680234c2a95bbf1ba23030a17a6c219a25.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/3d3b91c152389191edcadb756a580fef38eea13d.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/454607780251bb66474392aa9ecf51dff2e05aa0.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/509291f40d6eca81a2a606db273f180b767372f2.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/5bf6b56fa1b796d1676b87293833d95d52016187.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/5c899ca9a357ec98cc24f133f65e13d6a2bc2c66.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/5dc27d7ac144d4eab2e612eeee70eceef7daf1c2.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/5dd795a692ffa5d0c692eb7eb9577d6c2c1184e4.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/77f242e67fef06575ad035a7e9759211a814d794.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/79fc9bb14a3df86cf7cf1934d9ea3357c6f0f722.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/7cadab65fe4a3f40a0588467ad5a3ef62cc2111b.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/7fd4f543c276d2160b4f2931b9342b4e4eda339d.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/848bc5cc632f0d08c02536fdd9c510891224a2a1.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/85e413ff0bb7e527c4bd18de183ee5a0fab7e64f.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/8e71832dc458c9b92d9b4eeb93305b493e0f9f3c.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/8ec58d4db852f905be32533f7e4d5b9bbc126add.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/9889eb39efd69789ec6f5b353da8c51abde6c3ac.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/9c00c7c5e39d77ca526b6a93ffcbcf9584091434.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/9c1bb81da4e8d25045e5dc1050d7df65ecdc9232.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/ad28f2f6af6c7b88d19c6c49624af9a753f177a5.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/af34052ed757c35809f9adc921a67a1cbb5627e1.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/b6af73430d9eeedef83339089e87c20e00239633.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/b7d4e98d1f8c996a3de34ec277b9d3de86d36433.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/b7e7d6e8cadda9a80dce75330a2c55cc14147bf2.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/c39388c820d7558b11ff67f9cb6b5f008df42f99.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/cd25840272fa5df1ed570430e6bff162d8e44466.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/cdb96991e5b7901ec978eddb096d13dead511c16.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/d03342976ae329aaca01c320cf906d0e8b8eed4c.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/d31a66186385df581030009ad6da6f247846de8d.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/d4228f5193fba26ffb5b2eaf14359da42ab51b14.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/d5ab4639dfffd45f588037516aea9d1c493e11a8.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/dfb9b44ed37f0c0e6c5c00cbf3c4f0b6657ca976.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/e0a89791d6bdcf4441f0e1cc0304dd201c6aa4b8.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/eb8011a413d763a4df6a6b36283897ed7a1cdb1b.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/f121907d35bd0210ae81af2fa99ab897cac89dfa.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/f3472efc8b3e2311a4721c95fba3aea27782401f.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/f7cd5c5052fc8dd05bebd2c6bdfc82ef0c7539df.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/fa1920955083a858a257a9dafc3061acbf413e8c.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/.cache/babel-loader/fc482e8983008145d8f7a534214569da3378f7a6.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/domains/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/domains/done.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/domains/es6-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/domains/finally.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/domains/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/domains/node-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/domains/rejection-tracking.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/domains/synchronous.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/lib/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/lib/done.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/lib/es6-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/lib/finally.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/lib/node-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/lib/rejection-tracking.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/lib/synchronous.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/polyfill-done.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/setimmediate/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/setimmediate/done.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/setimmediate/es6-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/setimmediate/finally.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/setimmediate/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/setimmediate/node-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/setimmediate/rejection-tracking.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/setimmediate/synchronous.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/src/done.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/src/es6-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/src/finally.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/src/node-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/src/rejection-tracking.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/fbjs/node_modules/promise/src/synchronous.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/promise/index.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/promise/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/PATENTS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/checkPropTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/factoryWithThrowingShims.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/factoryWithTypeCheckers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/lib/ReactPropTypesSecret.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/prop-types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact/node_modules/react-icon-base/node_modules/prop-types/prop-types.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/README.md" afterPath="$PROJECT_DIR$/contact/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/domains/core.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/domains/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/domains/es6-extensions.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/domains/es6-extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/domains/rejection-tracking.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/domains/rejection-tracking.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/domains/synchronous.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/domains/synchronous.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/index.d.ts" afterPath="$PROJECT_DIR$/contact/node_modules/promise/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/lib/core.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/lib/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/lib/es6-extensions.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/lib/es6-extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/lib/rejection-tracking.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/lib/rejection-tracking.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/lib/synchronous.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/lib/synchronous.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/package.json" afterPath="$PROJECT_DIR$/contact/node_modules/promise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/setimmediate/core.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/setimmediate/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/setimmediate/es6-extensions.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/setimmediate/es6-extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/setimmediate/rejection-tracking.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/setimmediate/rejection-tracking.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/node_modules/promise/setimmediate/synchronous.js" afterPath="$PROJECT_DIR$/contact/node_modules/promise/setimmediate/synchronous.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/package.json" afterPath="$PROJECT_DIR$/contact/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/src/App.js" afterPath="$PROJECT_DIR$/contact/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/src/components/ContactModal.js" afterPath="$PROJECT_DIR$/contact/src/components/ContactModal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/src/components/ContactItem.js" afterPath="$PROJECT_DIR$/contact/src/components/ContactItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/src/components/ContactList.js" afterPath="$PROJECT_DIR$/contact/src/components/ContactList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/yarn.lock" afterPath="$PROJECT_DIR$/contact/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,61 +150,47 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/contact/src/App.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redux-counter/src/reducers/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#51#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CounterContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redux-counter/src/containers/CounterContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="26" />
+              <folding>
+                <element signature="e#51#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="color.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redux-counter/src/reducers/color.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/src/components/ContactItem.js">
+      <file leaf-file-name="number.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redux-counter/src/reducers/number.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="126" column="6" lean-forward="true" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
-              <folding>
-                <element signature="e#51#90#0" expanded="true" />
-                <marker date="1504339929000" expanded="true" signature="2823:3340" ph="..." />
-                <marker date="1504339929000" expanded="true" signature="2866:3330" ph="..." />
-                <marker date="1504339929000" expanded="true" signature="2889:2996" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactModal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/src/components/ContactModal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="137" column="37" lean-forward="false" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="37" />
-              <folding>
-                <element signature="e#51#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Container.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/src/components/Container.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="315">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact/src/components/ContactList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-              <folding>
-                <element signature="e#51#90#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,15 +241,35 @@
         <option value="$PROJECT_DIR$/contact/src/lib/style-utils.js" />
         <option value="$PROJECT_DIR$/contact/src/components/Thumbnail.js" />
         <option value="$PROJECT_DIR$/contact/src/components/Input.js" />
-        <option value="$PROJECT_DIR$/contact/src/components/ContactItem.js" />
         <option value="$PROJECT_DIR$/contact/src/components/ContactModal.js" />
-        <option value="$PROJECT_DIR$/contact/src/components/ContactList.js" />
+        <option value="$PROJECT_DIR$/contact/README.md" />
         <option value="$PROJECT_DIR$/contact/src/App.js" />
+        <option value="$PROJECT_DIR$/contact/src/components/ContactItem.js" />
+        <option value="$PROJECT_DIR$/contact/src/components/ContactList.js" />
+        <option value="$PROJECT_DIR$/react#3/README.md" />
+        <option value="$PROJECT_DIR$/redux-counter/src/components/Counter.css" />
+        <option value="$PROJECT_DIR$/redux-counter/src/components/Counter.js" />
+        <option value="$PROJECT_DIR$/redux-counter/README.md" />
+        <option value="$PROJECT_DIR$/redux-counter/src/actions/ActionTypes.js" />
+        <option value="$PROJECT_DIR$/redux-counter/src/actions/index.js" />
+        <option value="$PROJECT_DIR$/redux-counter/src/index.js" />
+        <option value="$PROJECT_DIR$/redux-counter/src/utils/index.js" />
+        <option value="$PROJECT_DIR$/redux-counter/src/containers/App.js" />
+        <option value="$PROJECT_DIR$/redux-counter/src/reducers/color.js" />
+        <option value="$PROJECT_DIR$/redux-counter/src/reducers/number.js" />
+        <option value="$PROJECT_DIR$/redux-counter/src/containers/CounterContainer.js" />
+        <option value="$PROJECT_DIR$/redux-counter/src/reducers/index.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -143,7 +280,8 @@
     <handled-path value="$PROJECT_DIR$/react#2/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="19" />
+    <option name="y" value="33" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -162,6 +300,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,7 +325,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="contact" />
+              <option name="myItemId" value="redux-counter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,7 +339,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="contact" />
+              <option name="myItemId" value="redux-counter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -216,7 +357,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="contact" />
+              <option name="myItemId" value="redux-counter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -224,7 +365,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="reducers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,7 +379,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="contact" />
+              <option name="myItemId" value="redux-counter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-velopert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-velopert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redux-counter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -250,11 +413,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-velopert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-velopert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redux-counter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -762,15 +944,16 @@
       <workItem from="1503729440736" duration="5826000" />
       <workItem from="1503735686671" duration="2067000" />
       <workItem from="1504066272853" duration="389000" />
-      <workItem from="1504328546810" duration="12792000" />
+      <workItem from="1504328546810" duration="13183000" />
+      <workItem from="1504932320259" duration="10393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21951000" />
+    <option name="totallyTimeSpent" value="32735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <frame x="19" y="33" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -786,7 +969,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16044776" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22986111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -812,104 +995,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contact/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact/src/components/Container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#52#78#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact/src/components/Container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#52#78#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react#2/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react#2/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react#1/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react#2/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todolist/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1053,7 +1138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,7 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49">
           <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,7 +1190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,9 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-          <folding>
-            <element signature="e#51#77#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,9 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          <folding>
-            <element signature="e#51#90#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1146,7 +1222,35 @@
         <state relative-caret-position="450">
           <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
-            <element signature="e#51#77#0" expanded="true" />
+            <element signature="e#51#77#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react#3/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/src/components/ContactModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="137" column="37" lean-forward="false" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="37" />
+          <folding>
+            <element signature="e#51#90#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1159,44 +1263,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact/src/components/ContactModal.js">
+    <entry file="file://$PROJECT_DIR$/contact/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="137" column="37" lean-forward="false" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="37" />
+        <state relative-caret-position="346">
+          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
           <folding>
-            <element signature="e#51#90#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact/src/components/ContactItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="126" column="6" lean-forward="true" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
+        <state relative-caret-position="149">
+          <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
           <folding>
-            <element signature="e#51#90#0" expanded="true" />
-            <marker date="1504339929000" expanded="true" signature="2823:3340" ph="..." />
-            <marker date="1504339929000" expanded="true" signature="2866:3330" ph="..." />
-            <marker date="1504339929000" expanded="true" signature="2889:2996" ph="..." />
+            <marker date="1504934044000" expanded="true" signature="2938:3455" ph="..." />
+            <marker date="1504934044000" expanded="true" signature="2981:3445" ph="..." />
+            <marker date="1504934044000" expanded="true" signature="3004:3111" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact/src/components/ContactList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#51#94#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react#3/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/components/Counter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/registerServiceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/actions/ActionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/utils/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc;n#getRandomColor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/components/Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#51#77#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/containers/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#51#90#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/reducers/number.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/reducers/color.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/containers/CounterContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="26" />
           <folding>
             <element signature="e#51#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact/src/App.js">
+    <entry file="file://$PROJECT_DIR$/redux-counter/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#51#89#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

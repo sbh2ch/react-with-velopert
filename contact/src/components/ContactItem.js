@@ -126,6 +126,10 @@ class ContactItem extends Component {
         onOpenModify: PropTypes.func
     };
 
+    shouldComponentUpdate(nextProps, nextState) {
+        return this.props.contact !== nextProps.contact;
+    };
+
     render() {
         const {contact: {id, name, phone, color, favorite}, onOpenModify} = this.props;
         return (

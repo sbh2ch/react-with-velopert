@@ -1,7 +1,7 @@
 /**
  * Created by sonbyeonghwa on 2017. 9. 2..
  */
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import ContactItem from './ContactItem';
@@ -11,13 +11,20 @@ const Wrapper = styled.div`
     margin-top: 1rem;
 `;
 
-class ContactList extends Component {
+class ContactList extends PureComponent {
     static propTypes = {
         contacts: PropTypes.arrayOf(PropTypes.object),
         search: PropTypes.string, // 검색 키워드
         onToggleFavorite: PropTypes.func, // 즐겨찾기 토글
         onOpenModify: PropTypes.func // 수정 모달 띄우기
     };
+
+    // PureComponent 가 편하긴 하지만 성능상의 문제가 발생할 수 있다. 비교를 많이하기 때문.
+
+    // sholudComponentUpdate(nextProps, nextState) {
+    //     return this.props.contacts !== nextProps.contacts
+    //         || this.props.search !== nextProps.search
+    // };
 
     render() {
         const {contacts, onOpenModify, onToggleFavorite, search} = this.props;

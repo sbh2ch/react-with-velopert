@@ -9,6 +9,7 @@ import Dimmed from './components/Dimmed';
 import ContactList from './components/ContactList';
 import shortId from 'shortid';
 import Input from './components/Input';
+import Perp from 'react-addons-perf';
 
 function generateColor() {
     const colors = [
@@ -80,8 +81,17 @@ class App extends Component {
 
     handleSelectView = (view) => this.setState({view});
 
+    componentDidUpdate(prevProps, prevState) {
+        if (Perp.isRunning()) {
+            Perp.stop();
+            Perp.printInclusive(); // 과정에서 어떤 일이 일어났는지 다 보여줌
+            Perp.printWasted();  // 낭비 렌더링이 된 것을 보여줌. (내용이 안바뀌었는데 리렌더링된것들)
+        }
+    }
+
     modalHandler = {
         show: (mode, payload) => { // payload 안에 모달의 기초 상태를 넣을것임. 예를들어 썸네일 색
+            Perp.start();
             this.setState({
                 modal: {
                     mode,
