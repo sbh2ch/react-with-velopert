@@ -1,40 +1,78 @@
 /**
  * Created by sonbyeonghwa on 2017. 9. 9..
  */
-import {combineReducers} from 'redux';
-import number from './number';
-import color from './color';
+import * as types from '../actions/ActionTypes';
 
-const reducers = combineReducers({
-    numberData: number,
-    colorData: color
-});
+const initialState = {
+    counters: [
+        {
+            color: 'black',
+            number: 0
+        }
+    ]
+};
+
+const counter = (state = initialState, action) => {
+    const {counters} = state;
+    switch (action.type) {
+        case types.CREATE:
+            return {
+                ...state,
+                counters: [
+                    ...counters,
+                    {
+                        number: 0,
+                        color: action.color
+                    }
+                ]
+            };
+        case types.REMOVE:
+            return {
+                ...state,
+                counters: counters.slice(0, counters.length - 1)
+            };
+        case types.INCREMENT:
+            return {
+                ...state,
+                counters: [
+                    ...counters.slice(0, action.index),
+                    {
+                        ...counters[action.index],
+                        number: counters[action.index].number + 1
+                    },
+                    ...counters.slice(action.index + 1, counters.length)
+                ]
+            };
+
+        case types.DECREMENT:
+            return {
+                ...state,
+                counters: [
+                    ...counters.slice(0, action.index),
+                    {
+                        ...counters[action.index],
+                        number: counters[action.index].number - 1
+                    },
+                    ...counters.slice(action.index + 1, counters.length)
+                ]
+            };
+        case types.SET_COLOR:
+            return {
+                ...state,
+                counters: [
+                    ...counters.slice(0, action.index),
+                    {
+                        ...counters[action.index],
+                        color: action.color
+                    },
+                    ...counters.slice(action.index + 1, counters.length)
+                ]
+            };
+        default:
+            return state;
 
 
-// const initialState = {
-//     color: 'black',
-//     number: 0
-// };
-// const counter = (state = initialState, action) => {
-//     switch (action.type) {
-//         case types.INCREMENT:
-//             return {
-//                 ...state,
-//                 number: state.number + 1
-//             };
-//         case types.DECREMENT:
-//             return {
-//                 ...state,
-//                 number: state.number - 1
-//             };
-//         case types.SET_COLOR:
-//             return {
-//                 ...state,
-//                 color: action.color
-//             };
-//         default:
-//             return state;
-//     }
-// };
+    }
+};
 
-export default reducers;
+export default counter;
