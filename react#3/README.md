@@ -2,19 +2,19 @@
 > 상태 관리 라이브러리
 
 ## Redux는 왜 쓰는가?
+앱의 규모가 커질수록 state 관리가 힘들어진다.
 * 복잡한 상태를 관리하기 위해서.
 * 리덕스를 사용하면 렌더링 낭비를 해결할 수 있다.
-앱의 규모가 커질수록 state 관리가 힘들어진다.
 
 ## 구조
 ![tree](./assets/tree.png)
 
-앞서 진행했던 프로젝트들과 비슷한 구조다. 
-value를 주황색으로 전달하려면 부모 노드를 거쳐서 전달해야했다.
+앞서 진행했던 프로젝트들의 구조다. 
+만약 value를 주황색으로 전달하려면 부모 노드를 거쳐서 전달해야했다.
 파란색에게 handleSomething을 전달하려면 부모 노드를 거쳐 전달해야했었다.
 
 redux를 사용하면 구조가 좀 바뀐다.
-일단 스토어가 있다. 프로젝트의 상태를 모두 담고 있는 것이다.
+프로젝트의 상태를 모두 담고 있는 `store`가 있다. .
 
 필요한 정보를 컴포넌트에게 props로 전달한다.
 그러다 어떤 변화가 일어났다, 예를들어 input의 텍스트 정보가 바뀌거나 모달이 열렸다 닫혔다. 하면 액션을 reducer에게 전달한다.
@@ -183,14 +183,13 @@ connect(...)(MyComponent);
 ```
 
 ## Immutable.js
-왜쓰는가
+왜쓰는가? 
 객체의 불변성을 지키기 위해서 사용함.
-리액트에서 state혹은 props가 변할 때 리랜더링을 함
-그런데 만약 상태를 바꿀 때 새로운 state를 만들지 않고, 기존의 state를 변경시킨다면, 리액트 입장에선 상태가 바뀐지 모른다. 업데이트를 하지 않는다.
-객체/배열을 직접적으로 수정하면, 레퍼런스가 가르키는곳이 같기 때문에 똑같은 값으로 인식한다.
+리액트에서 `state`혹은 `props`가 변할 때 리랜더링을 함
+객체/배열을 직접적으로 수정하면, 레퍼런스가 가르키는곳이 같기 때문에 똑같은 값으로 인식한다. 리액트 입장에선 상태가 바뀐지 모른다. 업데이트를 하지 않는다.
+그러므로 새 객체/배열을 생성하는 방법으로 상태를 업데이트한다.
 
-그러므로 새 객체 배열을 생성하는 방법으로 상태를 업데이트한다.
-그러다보니 간단한 작업이 복잡해진다.
+근데, 새 객체/배열을 생성하려면, 간단한 작업이 복잡해진다.
 ```ecmascript 6
 let object1 = {
     a: 1,
@@ -218,7 +217,12 @@ let object2 = {
 ```
 단순히 h값을 10으로 바꾸고싶을뿐인데 위 코드처럼 엄청 귀찮아진다.
 
-이런 귀찮음을 줄여주는 도구가 바로 Immutable.js
+이런 귀찮음을 줄여주는 도구가 바로 Immutable.js. **심지어 속도도 더 빠르다**
+
+### Map()
+객체 대신 사용되는 구조
+객체를 만들 때 사용하는 함수 
+
 ```ecmascript 6
 let object1 = Map({
     a: 1,
@@ -235,12 +239,148 @@ let object1 = Map({
 
 let object2 = object1.setIn(['d','f','h'], 10);
 ```
-immutable.js의 Map, SetIn, 등의 함수를 사용하면 편리해진다. 심지어 속도도 더 빠르다.
 
-### Map()
-객체를 만들 때 사용하는 함수 
 
 ### List()
 배열을 만들 때 사용하는 함수 
-배열과 동일한 함수가 있음 (map, sort, pop, push)
+배열과 동일한 함수가 있음 (`map`, `sort`, `pop`, `push`)
 차이점은 언제나 새로운 배열을 생성함
+```ecmascript 6
+const {Map, List} = Immutable;
+
+let list = List([0,1,2,3,4,5]);
+
+list.get(1) // 1번째 아이템 겟
+list.get(0) // 0번째 아이템 겟
+
+let list2 = List([
+    Map({
+        number: 1,
+        color: 'black'
+    }),
+    Map({
+        number: 2,
+        color: 'green'
+    }),
+    Map({
+        number: 0,
+        color: 'blue'
+    }),
+]);
+
+//만약 리스트 1번짜 아이템의 number를 변경하고 싶다면
+let newList = list2.setIn([1, 'number'], 50);
+
+let newList = list2.setIn([1, 'number'], list2.get(1, 'number') + 1);
+// 업데이트를 사용하는 방법도 있다
+list2.update(1, (item) => item.set('number', item.get('number') + 1));
+
+// 제거시
+list2.remove(1);
+
+// 마지막 제거시
+list2.pop();
+
+// 모든 작업은 원본 리스트를 바꾸지 않고 새로운 객체를 생성 및 반환한다!
+```
+
+### fromJS()
+객체/배열을 Map, List로 알아서 변환시켜줌. 
+
+## Ducks
+액션 하나 추가할 때 마다 액션 타입에, 액션 생성자에, 리듀서에..
+3가지 파일을 수정해야한다. 상당히 귀찮다.
+
+이 문제를 해결하기 위한 솔루션이 바로 Ducks다.
+
+### Ducks 의 구조
+리듀서, 액션타입, 액션생성자를 한 파일에 넣고, 이를 모듈 이라고 부른다.
+```ecmascript 6
+// Actions
+const CREATE = 'goci/widgets/CREATE';
+const UPDATE = 'goci/widgets/UPDATE';
+const DELETE = 'goci/widgets/DELETE';
+
+// Reducers
+export default function reducer(state= {}, action = {}){
+    switch (action.type) {
+        //todo reducer function
+        default: return state;
+    }
+}
+
+// Action Creators
+export function createWidgets(widget) {
+    return {type: CREATE, widget}
+}
+
+export function updateWidget(widget) {
+    return {type: UPDATE, widget}
+}
+
+export function deleteWidget(widget) {
+    return {type: DELETE, widget}
+}
+```
+
+위는 예시 모듈이다.
+
+### 규칙
+* npm-module-or-app/reducer/ACTION_TYPE 의 형태
+* 모듈을 만드는게 아니라면 맨 앞은 생략하여 reducer/ACTION_TYPE 도 가능
+* 리듀서를 만들땐 export default로 내보내기
+* 액션 생성자는 export 로 내보내기
+
+### redux-actions
+redux-actions 를 활용하면 액션관리가 더욱 편해진다.
+* createAction
+  * 액션 생성자 만드는걸 자동화
+  * 그저 파라미터를 넣을 뿐인데 굳이 함수를 하나하나 만들어야 하나? 자동화 하면 어떨까? => createAction!
+  ```ecmascript 6
+  export const increment = (index) => ({
+    type: types.INCREMENT,
+    index
+  });
+  // 이런 코드가 createAction을 사용하면
+  export const increment = createAction(types.INCREMENT); 
+  // 그렇다면 index는 어디로 갔는가?
+  ```
+  * 액션 생성자는 최대 1개의 파라미터를 받는 것으로 가정한다. 그 파라미터를 payload 라고 한다. 
+  ```ecmascript 6
+  increment(3);
+  // 위와 같이 increment에 파라미터 3을 넣어서 실행하면 아래와 같이 생성된다.
+  /* 결과
+  {
+    type: 'INCREMENT',
+    payload: 3  
+  };
+  */
+  
+  // 여러개를 전달해야 한다면 객체를 전달한다
+  increment({index:5, color: 'black'});
+  /* 결과
+  {
+    type: 'INCREMENT',
+    payload: {
+      index: 5,
+      color: 'black'
+    }
+  }
+  */
+  ```
+* handleActions
+  * 리듀서 작성하는걸 switch case 말고 객체를 통해 작성, 스코프를 나눔. 
+  * 스코프를 공유하는 switch case의 단점 극복
+  ```ecmascript 6
+  const reducer = handleActions({
+    INCREMENT: (state, action) => ({
+      counter: state.counter + action.payload
+    }),
+  
+    DECREMENT: (state, action) => ({
+      counter: state.counter - action.payload
+    })
+  }, { counter: 0});
+  // 첫번 째 파라미터 : 액션이름: 함수 로 이루어진 객체
+  // 두번 째 파라미터 : 기본 상태 
+  ```
