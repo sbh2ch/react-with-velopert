@@ -32,12 +32,12 @@ class WriteMemo extends Component {
     };
 
     handleCreate = async () => {
-        const {title, body, MemoActions, UIActions} = this.props;
+        const {title, body,cursor, MemoActions, UIActions} = this.props;
         try {
             await MemoActions.createMemo({
                 title, body
             });
-
+            await MemoActions.getRecentMemo(cursor ? cursor : 0);
             UIActions.resetInput();
         } catch (e) {
             console.log(e);
@@ -74,7 +74,8 @@ export default connect(
     (state) => ({
         focused: state.ui.getIn(['write', 'focused']),
         title: state.ui.getIn(['write', 'title']),
-        body: state.ui.getIn(['write', 'body'])
+        body: state.ui.getIn(['write', 'body']),
+        cursor: state.memo.getIn(['data', 0, 'id'])
     }),
     (dispatch) => ({
         UIActions: bindActionCreators(uiActions, dispatch),

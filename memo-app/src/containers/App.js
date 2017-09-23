@@ -9,11 +9,24 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
 class App extends Component {
-    componentDidMount() {
+    async componentDidMount() {
         const {MemoActions} = this.props;
-
-        MemoActions.getInitialMemo();
+        try {
+            await MemoActions.getInitialMemo();
+            this.getRecentMemo();
+        } catch (e) {
+            console.log(e);
+        }
     }
+
+    getRecentMemo = () => {
+        const {MemoActions, cursor} = this.props;
+        MemoActions.getRecentMemo(cursor ? cursor : 0);
+
+        setTimeout(() => {
+            this.getRecentMemo();
+        }, 1000 * 5);
+    };
 
     render() {
         return (
@@ -29,7 +42,9 @@ class App extends Component {
 }
 
 export default connect(
-    (state) => ({}),
+    (state) => ({
+        cursor: state.memo.getIn(['data', 0, 'id'])
+    }),
     (dispatch) => ({
         MemoActions: bindActionCreators(memoActions, dispatch)
     })
