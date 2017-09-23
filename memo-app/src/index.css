@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #e9ecef;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
